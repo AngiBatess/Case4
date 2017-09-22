@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Champagne;
+  src: url(cac_champagne.woff) format('woff'), url(cac_champagne.ttf)format('truetype');
+}
+
+@font-face {
+  font-family: Dobkin;
+  src: url(DobkinPlain.woff) format('woff'), url(DobkinPlain.ttf) format('truetype');
+}
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+
+   Great Lakescape Lodge Style Sheet
+   Author: Angila Bates
+   Date:   09/21/2017
+
+   Filename: lake_styles.css
+
+*/
+
+/* Structural Styles */
+
+html {
+  background-color: rgb(0%, 50%, 50%);
+}
+
+body {
+  background-color: rgba(255, 0, 0, 0.5);
+  font-family: "Courier New",bold;
+  font-size: 1em;
+  color: black;
+}
+
+p {
+  margin: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1em;
+  text-align: center;
+}
+
+aside {
+  font-size: .9em;
+  font-family: serif, cursive;
+  margin: 0px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: justify;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+aside>h2 {font-size: 1.8em;
+text-align: center;
+color: pink;}
+
+
+
+aside>ul {
+  font-size: 1em;
+  color: white;
+  text-align: left;
+  list-style-type: none;
+}
+
+aside>p {
+  font-size: 1em;
+  color: white;
+}
+
+nav ul a:hover, nav ul a:active {
+  color: white;
+}
+
+blockquote {
+  color: pink;
+  font-size: 3em;
+  font-family: 'Champagne',serif,cursive;
+}
+
+aside>h1 {
+  text-align: center;
+}
+
+body>footer address {
+  background-color: rgb(222, 128, 60);
+  color: white;
+  color: rgba(255, 255, 255, .07);
+  font: normal small-caps bold 0.9em/3em Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Nav Styles */
+
+nav a {
+  font-family: 'Helvetica', serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+  color: white;
+}
+
+nav a:hover, nav a:active {
+  color: white;
+}
+
+/* Section Styles */
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
+  font-family: 'DobkinPlain','Modern', serif;
+}
+
+h2 {
+  font-size: 2.2em;
+  font-weight: normal;
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+}
+
+section#leftcol {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+section#leftcol {
+  font-family: 'Times New Roman', 'Modern', sans-serif;
+}
+
+section#rightcol {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+section#rightcol {
+  font-family: 'Times New Roman', 'Modern', sans-serif;
+  font-size: .7em;
+}
+
+aside a {
+  color:pink;
+}
+ section#leftcol aside:nth-of-type(odd){
+  background-color: green;
+}
